@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Facebook -login</title>
+</head>
+<body>
+    <header id="header">
+        <div class="layer"></div>
+
+        <div class="main">
+            <div class="left">
+                <img src="/img/fb logo.svg" alt="facebook-logo">
+                <p>Connect with friends and the world around you on Facebook.</p>
+            </div>
+            <div class="right">
+                <form action="#">
+                    <div class="form_body">
+                        <input type="text" placeholder="Email or Phone Number" id="login-email">
+                        <input type="password" placeholder="Password" id="login-password">
+                        <button class="login " >Log In</button>
+                        <p class="forget">forget password?</p>
+                        <hr>
+                        <button class="create" onclick="show()">create new account</button>
+                    </div>
+                </form>
+                <p class="foot"><span>Create a Page</span>for a celebrity, brand or business.</p>
+            </div>
+        </div>
+
+        <div class="signup" id="signup">
+            <div class="top">
+                <div>
+                    <h2>Sign Up</h2>
+                    <p>it's quick and easy</p>
+                </div>
+                <img src="/img/cross.png" class=".top-img" alt="">
+            </div>
+            <hr>
+            <form action="#" class="signup_form">
+                <div class="signup_body">
+                    <div class="name"> 
+                        <input type="text" placeholder="First Name" class="same" id="first-name">
+                        <input type="text" placeholder="Last Name" class="same" id="last-name">
+                    </div>
+                    <div class="bottom">
+                        <input type="text" placeholder="Email or Phone Number" id="signup-email">
+                        <input type="password" placeholder="New Password" id="signup-password">
+                    </div>
+                </div>
+                <button class="singin" id="signup-button">Sign Up</button>
+            </form>
+        </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+
+</html>
